@@ -182,7 +182,7 @@ spec:
       - command:
           - "/otelcol-contrib"
           - "--config=/conf/otel-collector-config.yaml"
-        image: otel/opentelemetry-collector-contrib:0.88.0-arm64
+        image: otel/opentelemetry-collector-contrib:0.88.0-amd64
         name: otel-collector
         resources:
           limits:
